@@ -6,7 +6,7 @@ GitDriven Blog Engine. Blog Engine is all about your content. Using just your co
 
 I don't commit my ```appsettings.json``` or my ```appsettings.Development.json```. You will need to create these in the root of the project. Look at the ```appsettings.example.json``` to know exactly what you need.  
   
-##  What it does
+## What it does
 
 GitBlogEngine looks at a Git repo with some markdown files in them, converts the html into a usable format and delivers that data via rest api. you can then render that data on your front end DOM objects. Is it pretty, nope, but it works...sort of. You can just use your GitHub credentials for now until I implement token based auth.
 
